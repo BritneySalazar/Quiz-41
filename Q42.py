@@ -19,11 +19,8 @@ def hash_spam(string, hashtag):
     else:
         return total
 
-    
-hash_spam(string, hashtag)
-0
 
 hash_spam("########", hashtag)
-This tweet will be considered as a spam!
+# => prints "This tweet will be considered as a spam!"
 
-#Britney Salazar Quiz 42 CPSC
+#Britney Salazar Quiz 42 
