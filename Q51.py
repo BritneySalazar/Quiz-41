@@ -1,5 +1,4 @@
-import os
+quiz = open("text1.txt")
 
-filein = open("text1.txt")
-filein.readline()
-os.getcwd("text1.txt")
+for line in quiz:
+  print(line)
