@@ -1,2 +1,8 @@
-Python 3.10.6 (tags/v3.10.6:9c7b4bd, Aug  1 2022, 21:53:49) [MSC v.1932 64 bit (AMD64)] on win32
-Type "help", "copyright", "credits" or "license()" for more information.
+
+import os
+
+directory = quiz5
+dire_dir = "C:\Users\Jbrit\Desktop\Quiz5"
+
+path = os.path.join(dire_dir, directory)
+print(path)
